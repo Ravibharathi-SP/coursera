@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+}
+
+#head1{
+  font-size:  40px;
+  font-family: 'Modak', cursive;
+}
+
+header{
+}
+
+.content{
+  background-color: rgb(156, 186, 205);
+  padding: 10px;
+  margin: 20px;
+  font-size: 35px;
+  font-family: 'Caveat', cursive;
+}
+
+.content>h1{
+  font-family: 'Merienda One', cursive;
+}
+
+#poori-content:hover{
+  background-size: 100% 100%;
+  backface-visibility: hidden;
+}
+.container{
+  padding-top: 10px;
+}
+
+#idly-content:hover{
+
+  background-size: 100% 100%;
+  backface-visibility: hidden;
+}
+#dosa-content:hover{
+  background-size: 100% 100%;
+  backface-visibility: hidden;
+}
+
+#myTitle01{
+  padding-top: 3px;
+  background-color: rgb(100,123,199);
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-left:  38.5vw;
+  /* margin-right: 1; */
+  text-align:center;
+  float: left;
+  color:rgb(191, 255, 0);
+  font-size: 52px;
+  font-family: 'Dancing Script', cursive;
+  border: solid 2px rgb(12,34,45);
+  border-radius: 100%;
+}
+
+@media (max-width:720px) {
+  #myTitle01{
+    margin-left: 22vw;
+  }
+}
+@media (max-width:520px) {
+  #myTitle01{
+    margin-left: 14vw;
+  }
+}
